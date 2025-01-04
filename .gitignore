@@ -177,3 +177,4 @@ home_work/01-docker-terraform/keys/*
 # Ignore Terraform directories
 home_work/01-docker-terraform/.terraform/*
 01-docker-terraform/.terraform/
+01-docker-terraform/keys/my-creds.json
