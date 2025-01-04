@@ -178,3 +178,7 @@ home_work/01-docker-terraform/keys/*
 01-docker-terraform/.terraform/
 01-docker-terraform/keys/my-creds.json
 odiurdigital.code-workspace
+home_work/01-docker-terraform/.terraform.lock.hcl
+home_work/01-docker-terraform/terraform.tfstate
+home_work/01-docker-terraform/terraform.tfstate.backup
+
