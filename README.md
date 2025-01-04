@@ -1,49 +1,42 @@
-## Data Engineering Zoomcamp 2025 Cohort
+# DE Zoomcamp 2025 Homework Repository
 
-* [Pre-launch Q&A stream](TBA)
-* [Launch stream with course overview](TBA)
-* [Course Google calendar](https://calendar.google.com/calendar/?cid=ZXIxcjA1M3ZlYjJpcXU0dTFmaG02MzVxMG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
-* [FAQ](https://docs.google.com/document/d/19bnYs80DwuUimHM65UV3sylsCn2j1vziPOwzBwQrebw/edit?usp=sharing)
-* Course Playlist: Only 2024 Live videos & homeworks (TODO)
+Welcome to Rui's Homework Repository! Here you will find the homework assignments completed by myself for the Datatalks Data Engineering Zoomcamp 2025 course.
 
+## Course Overview
 
-[**Module 1: Introduction & Prerequisites**](01-docker-terraform/)
+The Datatalks Data Engineering Zoomcamp is a comprehensive program designed to teach the fundamentals and advanced concepts of data engineering. Throughout the course, we will cover topics such as:
 
-* [Homework](01-docker-terraform/homework.md)
+- Data ingestion and extraction
+- Data transformation and cleaning
+- Data storage solutions
+- Data pipeline orchestration
+- Data warehousing
+- Big data processing
+- Cloud data engineering
+- Real-time data processing
 
+## Homework Assignments
 
-[**Module 2: Workflow Orchestration**](02-workflow-orchestration)
+Each week, new homework assignments will be added to this repository. These assignments will include practical exercises and projects that reinforce the concepts learned during the course. Below is a list of the homework assignments:
 
-* [Homework](02-workflow-orchestration/homework.md)
-* Office hours
+1. **Week 1:** Introduction to Data Engineering
+2. **Week 2:** Data Ingestion and Extraction
+3. **Week 3:** Data Transformation and Cleaning
+4. **Week 4:** Data Storage Solutions
+5. **Week 5:** Data Pipeline Orchestration
+6. **Week 6:** Data Warehousing
+7. **Week 7:** Big Data Processing
+8. **Week 8:** Cloud Data Engineering
+9. **Week 9:** Real-time Data Processing
 
-[**Workshop 1: Data Ingestion**](workshops/dlt.md)
+## How to Use This Repository
 
-* Workshop with dlt
-* [Homework](workshops/dlt.md)
+Each homework assignment will be organized into its own directory. Inside each directory, you will find the necessary files and instructions to complete the assignment. To get started, simply navigate to the directory of the week you are working on and follow the instructions provided.
 
+## Contact
 
-[**Module 3: Data Warehouse**](03-data-warehouse)
+If you have any questions or need further assistance, feel free to reach out to me at [your email address].
 
-* [Homework](03-data-warehouse/homework.md)
+Bests
 
-
-[**Module 4: Analytics Engineering**](04-analytics-engineering/)
-
-* [Homework](04-analytics-engineering/homework.md)
-
-
-[**Module 5: Batch processing**](05-batch/)
-
-* [Homework](05-batch/homework.md)
-
-
-[**Module 6: Stream Processing**](06-streaming)
-
-* [Homework](06-streaming/homework.md)
-
-
-[**Project**](project.md)
-
-More information [here](project.md)
-# de_zoomcamp_25_homework
+Rui
