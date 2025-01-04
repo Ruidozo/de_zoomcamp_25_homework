@@ -173,3 +173,6 @@ cython_debug/
 
 # remove the Keys folder from the repository
 home_work/01-docker-terraform/keys/*
+
+# Ignore Terraform directories
+home_work/01-docker-terraform/.terraform/*
