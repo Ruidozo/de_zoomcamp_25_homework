@@ -182,3 +182,5 @@ home_work/01-docker-terraform/.terraform.lock.hcl
 home_work/01-docker-terraform/terraform.tfstate
 home_work/01-docker-terraform/terraform.tfstate.backup
 
+*.json
+
