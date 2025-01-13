@@ -182,5 +182,4 @@ home_work/01-docker-terraform/.terraform.lock.hcl
 home_work/01-docker-terraform/terraform.tfstate
 home_work/01-docker-terraform/terraform.tfstate.backup
 03-data-warehouse/data_gcs/airflow-docker/google_credentials.json
-*.json
 
