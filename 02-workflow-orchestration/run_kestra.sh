@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Pull and run the latest Kestra image with the required configuration
 docker run --pull=always --rm -it \
   -p 8080:8080 \
   --user=root \

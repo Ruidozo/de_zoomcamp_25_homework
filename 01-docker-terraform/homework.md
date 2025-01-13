@@ -64,7 +64,7 @@ Tip: started and finished on 2019-09-18.
 Remember that `lpep_pickup_datetime` and `lpep_dropoff_datetime` columns are in the format timestamp (date and hour+min+sec) and not in date.
 
 - 15767
-- 15612
+- 15612 <- Answer
 - 15859
 - 89009
 
@@ -77,7 +77,7 @@ Tip: For every trip on a single day, we only care about the trip with the longes
 
 - 2019-09-18
 - 2019-09-16
-- 2019-09-26
+- 2019-09-26 <- Answer - Longest_trip_distance - 341,64
 - 2019-09-21
 
 
@@ -87,7 +87,7 @@ Consider lpep_pickup_datetime in '2019-09-18' and ignoring Borough has Unknown
 
 Which were the 3 pick up Boroughs that had a sum of total_amount superior to 50000?
  
-- "Brooklyn" "Manhattan" "Queens"
+- "Brooklyn" "Manhattan" "Queens" <- answer - Total_amount 267,276
 - "Bronx" "Brooklyn" "Manhattan"
 - "Bronx" "Manhattan" "Queens" 
 - "Brooklyn" "Queens" "Staten Island"
@@ -102,7 +102,7 @@ Note: it's not a typo, it's `tip` , not `trip`
 
 - Central Park
 - Jamaica
-- JFK Airport
+- JFK Airport <-answer - largest_tip - 62,31
 - Long Island City/Queens Plaza
 
 
@@ -128,6 +128,7 @@ terraform apply
 
 Paste the output of this command into the homework submission form.
 
+01-docker-terraform/Q7_terraform_output.md
 
 ## Submitting the solutions
 
