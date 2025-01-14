@@ -158,7 +158,34 @@ the largest tip?
 
 The [query](/01-docker-terraform/2025_homework/sql_queries/question_6_query.sql) starts by joining tables, filters the pickup zones and dates and calculates the largest tip. It then sorts and limits to the top place:
 
-![Question 6](image.png)
+![Question 6](/01-docker-terraform/2025_homework/images/image-3.png)
+
+- Yorkville West
+- JFK Airport <-- Answer
+- East Harlem North
+- East Harlem South
 
 
+# Terraform
 
+## Question 7. Terraform Workflow
+
+Which of the following sequences, **respectively**, describes the workflow for: 
+1. Downloading the provider plugins and setting up backend,
+2. Generating proposed changes and auto-executing the plan
+3. Remove all resources managed by terraform`
+
+
+### Answer
+
+- Terraform [main.tf](/01-docker-terraform/2025_homework/terraform/main.tf)
+- Terraform [variables.tf](/01-docker-terraform/2025_homework/terraform/variables.tf)
+- Terminal output [here](/01-docker-terraform/2025_homework/terraform/output_terraform.md)
+
+
+Answers:
+- terraform import, terraform apply -y, terraform destroy
+- teraform init, terraform plan -auto-apply, terraform rm
+- terraform init, terraform run -auto-aprove, terraform destroy
+- terraform init, terraform apply -auto-approve, terraform destroy <-- Answer (there is a typo on -auto-approve)
+- terraform import, terraform apply -y, terraform rm
