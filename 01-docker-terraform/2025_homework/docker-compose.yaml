@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:13
+    container_name: postgres_container
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: ny_taxi
+    volumes:
+      - ny_taxi_postgres_data:/var/lib/postgresql/data:rw
+    ports:
+      - "5432:5432"
+    networks:
+      - pg-database
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin_container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "8080:80"
+    networks:
+      - pg-database
+
+  ingest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ingest_data_container
+    entrypoint: ["python", "ingest_data.py"]
+    depends_on:
+      - postgres
+    networks:
+      - pg-database
+    environment:
+      USER: root
+      PASSWORD: root
+      HOST: postgres_container  # Use the service name as the hostname
+      PORT: 5432
+      DB: ny_taxi
+      TABLE_NAME: green_taxi_trips
+      URL: https://github.com/DataTalksClub/nyc-tlc-data/releases/download/green/green_tripdata_2019-10.csv.gz
+      TABLE_NAME_2: taxi_zone_lookup
+      URL_2: https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv
+
+volumes:
+  ny_taxi_postgres_data:
+
+networks:
+  pg-database:

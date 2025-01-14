@@ -183,3 +183,5 @@ home_work/01-docker-terraform/terraform.tfstate
 home_work/01-docker-terraform/terraform.tfstate.backup
 03-data-warehouse/data_gcs/airflow-docker/google_credentials.json
 
+# Ignore all files in the /secrets folder
+/secrets/*
