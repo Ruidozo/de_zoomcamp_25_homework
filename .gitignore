@@ -185,3 +185,8 @@ home_work/01-docker-terraform/terraform.tfstate.backup
 
 # Ignore all files in the /secrets folder
 /secrets/*
+
+.DS_Store
+._.DS_Store
+
+02-workflow-orchestration/.DS_Store
