@@ -187,5 +187,5 @@ Answers:
 - terraform import, terraform apply -y, terraform destroy
 - teraform init, terraform plan -auto-apply, terraform rm
 - terraform init, terraform run -auto-aprove, terraform destroy
-- terraform init, terraform apply -auto-approve, terraform destroy <-- Answer (there is a typo on -auto-approve)
+- terraform init, terraform apply -auto-approve, terraform destroy <-- Answer 
 - terraform import, terraform apply -y, terraform rm
