@@ -15,10 +15,19 @@ Create an external table using the Green Taxi Trip Records Data for 2022. </br>
 Create a table in BQ using the Green Taxi Trip Records for 2022 (do not partition or cluster this table). </br>
 </p>
 
+```bash
+odiurdigital@de-zoomcamp-25-instance:~/de_zoomcamp_25_homework$ bq load --source_format=CSV \
+  --autodetect \
+  --replace=true \
+  de-zoomcamp-25:week_3_green_taxi.green_taxi_2022 \
+  "gs://green_cab_bucket_zoomcamp_25_oduir/*.csv"
+
+```
+
 ## Question 1:
 Question 1: What is count of records for the 2022 Green Taxi Data??
 - 65,623,481
-- 840,402
+- 840,402 <---
 - 1,936,423
 - 253,647
 
