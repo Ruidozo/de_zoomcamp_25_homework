@@ -35,7 +35,7 @@ Each homework assignment will be organized into its own directory. Inside each d
 
 ## Contact
 
-If you have any questions or need further assistance, feel free to reach out to me at [your email address].
+If you have any questions or need further assistance, feel free to reach out to me at ruimcarv@gmail.com
 
 Bests
 
